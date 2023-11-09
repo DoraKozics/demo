@@ -1,8 +1,8 @@
-/*body {*/
-/*    background-image: url("images/background.png");*/
-/*    background-size: 800px;*/
-/*    font-family: "Trebuchet MS", serif;*/
-/*}*/
+body {
+    background-image: url("images/background.png");
+    background-size: 800px;
+    font-family: "Trebuchet MS", serif;
+}
 
 .header {
     display: block;
@@ -35,7 +35,6 @@
     top: 25px;
     left: 0;
     background-color: #5d6a70;
-    /*background-color: #393d4f;*/
     overflow-x: hidden;
     padding-top: 20px;
 }
@@ -46,6 +45,7 @@
     text-align: center;
     font-size: 25px;
     color: floralwhite;
+    font-family: "Kulim Park";
     display: block;
 }
 
