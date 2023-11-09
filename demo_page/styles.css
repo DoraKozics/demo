@@ -1,0 +1,58 @@
+body {
+    background-image: url("images/background.png");
+    background-size: 800px;
+    font-family: "Trebuchet MS", serif;
+}
+
+.header {
+    display: block;
+    position: fixed;
+    order: -10;
+    top: 0;
+    height: 25px;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    font-family: "Coco Gothic", serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: #3a3643;
+}
+
+.logo {
+    width: 250px;
+    height: 250px;
+    margin-left: 5px;
+    border-radius: 50%;
+    border: 5px solid floralwhite;
+}
+
+.sidenav {
+    height: 100%;
+    width: 270px;
+    position: fixed;
+    z-index: 1;
+    top: 25px;
+    left: 0;
+    background-color: #5d6a70;
+    /*background-color: #393d4f;*/
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 25px;
+    color: floralwhite;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #d42b3f;
+}
+
+/*main {*/
+/*    background-color: #cccece;*/
+/*}*/
