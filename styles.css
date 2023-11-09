@@ -1,12 +1,8 @@
-@font-face {
-    font-family: Coco Gothic;
-    src: url(/assets/cocogothic_trial.ttf);
-}
-
 body {
     background-image: url("images/background.png");
     background-size: 800px;
-    font-family: Coco Gothic, serif;
+    font-family: 'Fira Sans', serif;
+    font-size: 15px;
 }
 
 .header {
@@ -14,11 +10,10 @@ body {
     position: fixed;
     order: -10;
     top: 0;
-    height: 25px;
+    height: 30px;
     width: 100%;
     background-color: white;
     text-align: center;
-    /*font-family: "Coco Gothic", serif;*/
     font-weight: bold;
     font-size: 30px;
     color: #3a3643;
@@ -37,7 +32,7 @@ body {
     width: 270px;
     position: fixed;
     z-index: 1;
-    top: 25px;
+    top: 30px;
     left: 0;
     background-color: #5d6a70;
     overflow-x: hidden;
@@ -50,14 +45,9 @@ body {
     text-align: center;
     font-size: 25px;
     color: floralwhite;
-    /*font-family: "Coco Gothic", serif;*/
     display: block;
 }
 
 .sidenav a:hover {
     color: #d42b3f;
 }
-
-/*main {*/
-/*    background-color: #cccece;*/
-/*}*/
