@@ -2,21 +2,21 @@ body {
     background-image: url("images/background.png");
     background-size: 800px;
     font-family: 'Fira Sans', serif;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 .header {
     display: block;
     position: fixed;
-    order: -10;
     top: 0;
+    left: 0;
     height: 30px;
     width: 100%;
-    background-color: white;
+    background-color: #3a3643;
     text-align: center;
     font-weight: bold;
     font-size: 30px;
-    color: #3a3643;
+    color: white;
 }
 
 .logo {
@@ -50,4 +50,28 @@ body {
 
 .sidenav a:hover {
     color: #d42b3f;
+}
+
+.post {
+    background-color: white;
+    width: 75%;
+    margin-top: 3%;
+    margin-left: 20%;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 2px 2px grey;
+}
+
+.main-text{
+    font-family: 'Fira Sans', serif;
+    font-size: 15px;
+    font-weight: lighter;
+    color: #3b3a44;
+}
+
+.display-date {
+    font-size: 15px;
+    font-style: italic;
+    text-align: right;
+    color: #6e6c7e;
 }
