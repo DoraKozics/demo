@@ -6,7 +6,7 @@
 body {
     background-image: url("images/background.png");
     background-size: 800px;
-    font-family: "Coco Gothic", serif;
+    font-family: Coco Gothic, serif;
 }
 
 .header {
