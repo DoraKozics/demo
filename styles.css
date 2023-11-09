@@ -1,7 +1,12 @@
+@font-face {
+    font-family: "Coco Gothic";
+    src: url(/assets/cocogothic_trial.ttf);
+}
+
 body {
     background-image: url("images/background.png");
     background-size: 800px;
-    font-family: "Roboto Thin", sans-serif;
+    font-family: "Coco Gothic", serif;
 }
 
 .header {
@@ -45,7 +50,7 @@ body {
     text-align: center;
     font-size: 25px;
     color: floralwhite;
-    /*font-family: "Segoe UI";*/
+    /*font-family: "Coco Gothic", serif;*/
     display: block;
 }
 
