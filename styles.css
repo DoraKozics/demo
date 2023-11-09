@@ -1,7 +1,7 @@
 body {
     background-image: url("images/background.png");
     background-size: 800px;
-    font-family: "Trebuchet MS", serif;
+    font-family: "Roboto Thin", sans-serif;
 }
 
 .header {
@@ -13,7 +13,7 @@ body {
     width: 100%;
     background-color: white;
     text-align: center;
-    font-family: "Coco Gothic", serif;
+    /*font-family: "Coco Gothic", serif;*/
     font-weight: bold;
     font-size: 30px;
     color: #3a3643;
@@ -45,7 +45,7 @@ body {
     text-align: center;
     font-size: 25px;
     color: floralwhite;
-    font-family: "Kulim Park";
+    /*font-family: "Segoe UI";*/
     display: block;
 }
 
